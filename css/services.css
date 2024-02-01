@@ -228,7 +228,7 @@ nav .navlinks ul li a{
     color: #3c84f2;
     cursor: pointer;
 }
-.services_menu ul li:first-child{
+.serv_menu_active{
     color: #3c84f2;
     font-weight: 600;
 }
@@ -265,6 +265,8 @@ nav .navlinks ul li a{
 .services_img img{
     width: 100%; 
 }
+
+
 
 /* services_con end*/
 

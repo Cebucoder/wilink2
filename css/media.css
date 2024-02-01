@@ -207,14 +207,17 @@ and (max-width:800px){
     .services_menu ul li{
         padding: 10px 0;
         border-bottom: 2px solid transparent;
+        
     }
     .services_menu ul li:hover{
         color: var(--primary-color);
         border-bottom: 2px solid var(--primary-color);
         cursor: pointer;
     }
-    .services_menu ul li:first-child{
-        border-bottom: 2px solid var(--primary-color);
+    .serv_menu_active{
+        color: #3c84f2;
+        border-bottom: 2px solid var(--primary-color) !important;
+        font-weight: 600;
     }
 
     .owl-carousel{
@@ -296,6 +299,9 @@ and (max-width:500px){
     }
     .services_img figure{
         position: static;
+    }
+    .services_menu ul li{
+        text-align: center;
     }
     
     /* services end*/

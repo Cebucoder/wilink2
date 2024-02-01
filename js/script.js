@@ -1,4 +1,17 @@
 
+$(".services_det_con").hide(); // Hide all service details initially
+$("#services_con1").show();
+$(".service-button").click(function(){
+    var target = $(this).data("target");
+    $(".services_det_con").hide();
+    $("#" + target).show();
+
+    $(".service-button").removeClass("serv_menu_active");
+    $(this).addClass("serv_menu_active");
+});
+
+
+
 //   counter
 function incrementCounter(counterElement, finalValue) {
     var currentCount = 0;
@@ -85,4 +98,9 @@ var mySwiper = new Swiper('.mySwiper', {
     updateSwiperOptions();
   });
 
+
+
+  
+
+  
 
